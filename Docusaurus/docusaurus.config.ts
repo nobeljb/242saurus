@@ -17,6 +17,8 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'nobeljb', // Usually your GitHub org/user name.
   projectName: '242saurus', // Usually your repo name.
+  trailingSlash: true,
+
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -38,7 +40,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/nobeljb/242saurus',
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -80,7 +82,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/nobeljb/242saurus/',
           label: 'GitHub',
           position: 'right',
         },
